@@ -1,0 +1,78 @@
+:root {
+  /* Colores */
+  --color1: #800080;
+  --color2: #cb1616;
+  --color3: #ecadb8;
+
+  /* Fuentes - Tamaños   */
+  --small: 12px;
+  --medium: 18px;
+  --large: 24px;
+  --extra-large: 32px;
+
+  /* Box Shadow */
+  --mi-shadow: 10px 16px 15px 0px rgba(0, 0, 0, 0.5);
+  --inset-shadow: inset 10px 10px 20px 0px rgba(0, 0, 0, 0.75);
+}
+
+body {
+  background: black;
+  color: white;
+  font-family: sans-serif;
+}
+
+.container {
+  background-color: rgb(66, 64, 64);
+  display: flex;
+  gap: 25px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  border-radius: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color1);
+}
+
+h2 {
+  color: var(--color1);
+}
+
+.small {
+  font-size: var(--small);
+}
+
+.medium {
+  font-size: var(--medium);
+}
+
+.large {
+  font-size: var(--large);
+}
+
+.extraLarge {
+  font-size: var(--extra-large);
+}
+
+.red {
+  background: var(--color2);
+  font-size: var(--medium);
+}
+
+.rose {
+  background: var(--color3);
+  font-size: var(--small);
+}
+
+.shadow {
+  box-shadow: var(--mi-shadow);
+}
+
+.inset-shadow {
+  box-shadow: var(--inset-shadow);
+}
