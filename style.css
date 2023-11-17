@@ -76,3 +76,21 @@ h2 {
 .inset-shadow {
   box-shadow: var(--inset-shadow);
 }
+
+.min-width {
+  min-width: 400px;
+  width: 5%;
+  /* Este porcentaje no funciona xqe esta establecido el mw en 400px */
+  margin: 0 auto;
+}
+
+.max-width {
+  width: 700px;
+  max-width: 500px;
+  /* este div va a medir 500px */
+  height: 200px;
+  border-radius: 10px;
+  margin: 0 auto;
+  background: var(--color1);
+  /* margin: 0 auto; */
+}
